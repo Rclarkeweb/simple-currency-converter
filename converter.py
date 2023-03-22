@@ -21,8 +21,7 @@ else:
     print("Hmm, you didn't enter an accepted currency. Please refresh and try again")
     
 # Ask the user for the amount they want to convert
-gbpamount = input("How much money do you want to convert? ")
-gbpamount = float(gbpamount)
+gbpamount = float(input("How much money do you want to convert? "))
 print(f'You want to convert £ {gbpamount:.2f} to {chosencurrency}')
 
 # Convert the users amount to the chosen currency
